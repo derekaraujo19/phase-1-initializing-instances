@@ -6,6 +6,9 @@ class Breakfast{
   }
 }
 
+let eggBreakfast = new Breakfast("BEC", "coffee")
+console.log(eggBreakfast)
+
 class Lunch{
   constructor(salad, soup, drink){
     this.salad = salad
